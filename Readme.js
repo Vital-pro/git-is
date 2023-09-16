@@ -62,6 +62,8 @@ function( a, b) {
 //? git log
 //! если мы хотим посмотреть, какие сделаны изменения в каком-то commit
 //? git show 8c041e2453a06ca31f3b9e27daa1910a1b0c42e7
+//! если мы хотим ПЕРЕЙТИ на какой-то commit
+//? git checkout 8c041e2453a06ca31f3b9e27daa1910a1b0c42e7
 
 //* Сделаем еще изменения внутри файла и после этого посмотрим
 //? git diff
@@ -100,4 +102,10 @@ function( a, b) {
 //? - git add . (в конце точка!) Добавляем ВСЕ новые файлы
 //? - git commit -m "Added any file.js"  делаем commit, пишем комментарии
 //? - git push origin master   Пушим наши изменения на гитхаб
-//? - git pull origin master   Сливаем себе в проект новые изменения из удаленного репозитария. 
+//? - git pull origin master   Сливаем себе в проект новые изменения из удаленного репозитария.
+
+//? git status
+//? git log
+//? git diff
+//? git show 8c041e2453a06ca31f3b9e27daa1910a1b0c42e7
+//? git checkout 8c041e2453a06ca31f3b9e27daa1910a1b0c42e7
